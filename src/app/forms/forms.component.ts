@@ -9,6 +9,7 @@ import {FormBuilder, FormControl, FormGroup, FormGroupDirective, NgForm, Validat
 export class FormsComponent implements OnInit {
   firstFormGroup!:FormGroup
   secondFormGroup!:FormGroup
+  thirdFormGroup!:FormGroup
   isLinear = false;
   constructor(private _formBuilder: FormBuilder) { }
 
@@ -26,7 +27,14 @@ export class FormsComponent implements OnInit {
     userCtrl:['',Validators.required],
     textCtrl:['',Validators.required],
   });
-
+   this.thirdFormGroup=this._formBuilder.group({
+    news:['',Validators.required],
+    prod:['',Validators.required],
+    mess:['',Validators.required],
+    ever:['',Validators.required],
+    stuff:['',Validators.required],
+    notification:['',Validators.required],
+   })
   }
 
 }
