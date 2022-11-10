@@ -1,0 +1,36 @@
+{
+  "signupUsers": [
+    {
+      "firstname": "",
+      "lastname": "",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 1
+    },
+    {
+      "firstname": "",
+      "lastname": "",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 2
+    },
+    {
+      "firstname": "",
+      "lastname": "",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 3
+    },
+    {
+      "firstname": "vijay",
+      "lastname": "k",
+      "email": "vijay@gmail.com",
+      "password": "vijay",
+      "mobile": "9696666666",
+      "id": 4
+    }
+  ]
+}
